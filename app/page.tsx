@@ -76,6 +76,51 @@ const sections = [
     ]
   },
   
+  {
+    title: "Scripts Zap ECOM",
+    cards: [
+      { id: 1, title: "Card 1", imageUrl: "/img/c7-1.png" },
+      { id: 2, title: "Card 2", imageUrl: "/img/c7-2.png" },
+      { id: 3, title: "Card 3", imageUrl: "/img/c7-3.png" },
+      { id: 4, title: "Card 4", imageUrl: "/img/c7-4.png" },
+      { id: 5, title: "Card 4", imageUrl: "/img/c7-5.png" },
+      { id: 6, title: "Card 4", imageUrl: "/img/c7-6.png" },
+      { id: 7, title: "Card 4", imageUrl: "/img/c7-7.png" },
+      { id: 8, title: "Card 4", imageUrl: "/img/c7-8.png" },
+      { id: 9, title: "Card 4", imageUrl: "/img/c7-9.png" },
+      { id: 10, title: "Card 4", imageUrl: "/img/c7-10.png" },
+      { id: 11, title: "Card 4", imageUrl: "/img/c7-11.png" },
+      { id: 12, title: "Card 4", imageUrl: "/img/c7-12.png" },
+    
+    ]
+  },
+  
+  {
+    title: "Geradores de Email",
+    cards: [
+      { id: 1, title: "Card 1", imageUrl: "/img/c8-1.png" },
+      { id: 2, title: "Card 2", imageUrl: "/img/c8-2.png" },
+      { id: 3, title: "Card 3", imageUrl: "/img/c8-3.png" },
+      { id: 4, title: "Card 4", imageUrl: "/img/c8-4.png" },
+      { id: 5, title: "Card 4", imageUrl: "/img/c8-5.png" },
+      { id: 6, title: "Card 4", imageUrl: "/img/c8-6.png" },
+      { id: 7, title: "Card 4", imageUrl: "/img/c8-7.png" },
+      { id: 8, title: "Card 4", imageUrl: "/img/c8-8.png" },
+      { id: 9, title: "Card 4", imageUrl: "/img/c8-9.png" },
+      
+    
+    ]
+  },
+  
+  {
+    title: "Scripts VSL",
+    cards: [
+      { id: 1, title: "Card 1", imageUrl: "/img/c9-1.png" },
+      { id: 2, title: "Card 2", imageUrl: "/img/c9-2.png" },
+       
+    ]
+  },
+  
   // Adicione as outras seções aqui seguindo o mesmo padrão
 ]
 
