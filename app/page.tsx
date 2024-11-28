@@ -121,6 +121,33 @@ const sections = [
     ]
   },
   
+  {
+    title: "Expert's Ecom",
+    cards: [
+      { id: 1, title: "Card 1", imageUrl: "/img/c10-1.png" },
+      { id: 2, title: "Card 2", imageUrl: "/img/c10-2.png" },
+      { id: 3, title: "Card 3", imageUrl: "/img/c10-3.png" },
+      { id: 4, title: "Card 4", imageUrl: "/img/c10-4.png" },
+      { id: 5, title: "Card 4", imageUrl: "/img/c10-5.png" },
+      { id: 6, title: "Card 4", imageUrl: "/img/c10-6.png" },
+      { id: 7, title: "Card 4", imageUrl: "/img/c10-7.png" },
+      { id: 8, title: "Card 4", imageUrl: "/img/c10-8.png" },
+      { id: 9, title: "Card 4", imageUrl: "/img/c10-9.png" },
+      { id: 10, title: "Card 4", imageUrl: "/img/c10-10.png" },
+      { id: 11, title: "Card 4", imageUrl: "/img/c10-11.png" },
+      { id: 12, title: "Card 4", imageUrl: "/img/c10-12.png" },
+      { id: 13, title: "Card 4", imageUrl: "/img/c10-13.png" },
+      { id: 14, title: "Card 4", imageUrl: "/img/c10-14.png" },
+      { id: 15, title: "Card 4", imageUrl: "/img/c10-15.png" },
+      { id: 16, title: "Card 4", imageUrl: "/img/c10-16.png" },
+      { id: 17, title: "Card 4", imageUrl: "/img/c10-17.png" },
+      { id: 18, title: "Card 4", imageUrl: "/img/c10-18.png" },
+      { id: 19, title: "Card 4", imageUrl: "/img/c10-19.png" },
+      { id: 20, title: "Card 4", imageUrl: "/img/c10-20.png" },
+       
+    ]
+  },
+  
   // Adicione as outras seções aqui seguindo o mesmo padrão
 ]
 
