@@ -156,11 +156,11 @@ export default function Home() {
     <div className="min-h-screen bg-black/95 text-white py-8">
       <div className="max-w-7xl mx-auto px-4">
         <Header />
-        <div className="grid grid-cols-12 gap-6 mb-8">
-          <div className="col-span-3 flex justify-left">
+        <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8">
+          <div className="col-span-2 md:col-span-3 flex justify-left">
             <UserCard />
           </div>
-          <div className="col-span-9 p-0 w-full">
+          <div className="col-span-2 md:col-span-9 p-0 w-full">
             <WelcomeBanner />
           </div>
         </div>
