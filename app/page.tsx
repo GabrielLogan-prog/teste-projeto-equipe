@@ -195,7 +195,8 @@ export default function Home() {
     
       <div className="max-w-7xl mx-auto px-4">
         <Header />
-        <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8">
+        <div className="relative mb-8 pb-2">
+        <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8 ">
           <div className="col-span-2 md:col-span-3 flex justify-left  border-0 ">
             <UserCard />
           </div>
@@ -203,6 +204,8 @@ export default function Home() {
             <WelcomeBanner />
           </div>
         </div>
+        <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#b6fc05] to-transparent"></div>
+</div>
         {sections.map((section, index) => (
           <CardSection key={index} title={section.title} cards={section.cards} />
         ))}
