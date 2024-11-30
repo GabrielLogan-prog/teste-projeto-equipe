@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
-    <header className="flex justify-between items-center mb-8">
+    <header className="flex justify-between items-center mb-8 border-b border-gray-700   " >
       <Image 
         src="/logo.png" 
         alt="Logo" 
