@@ -1,7 +1,6 @@
 'use client'
 import { Card, CardContent } from "@/components/ui/card"
 import Image from 'next/image'
-import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
 interface CardSectionProps {
