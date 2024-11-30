@@ -6,13 +6,19 @@ const openai = new OpenAI({
 
 export const runtime = 'edge';
 
+// Define the Message type
+interface Message {
+  role: 'system' | 'user' | 'assistant';
+  content: string;
+}
+
 export async function POST(req: Request) {
   const { messages, model, temperature, max_tokens, top_p } = await req.json();
 
   try {
     const response = await openai.chat.completions.create({
       model: model || 'gpt-3.5-turbo',
-      messages: messages.map((message: any) => ({
+      messages: messages.map((message: Message) => ({
         content: message.content,
         role: message.role,
       })),
