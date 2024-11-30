@@ -16,11 +16,11 @@ export function CardSection({ title, cards }: CardSectionProps) {
         {cards.map((card) => (
           <Card 
             key={card.id} 
-            className="relative overflow-hidden   border-[#74fc05] border-2 rounded-2xl h-[180px]  transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+            className="relative overflow-hidden   border-[#74fc05] border-2 rounded-2xl h-[180px] w-[300px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
           >
             <CardContent className="p-0 flex flex-col items-center justify-between h-full">
              
-                <Image 
+                <Image    
                   src={card.imageUrl}
                   alt={card.title}
                   width={200}
