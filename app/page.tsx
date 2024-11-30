@@ -196,7 +196,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4">
         <Header />
         <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8">
-          <div className="col-span-2 md:col-span-3 flex justify-left border-b border-[#88b337]">
+          <div className="col-span-2 md:col-span-3 flex justify-left  border-0 ">
             <UserCard />
           </div>
           <div className="col-span-2 md:col-span-9 p-0 w-full">
