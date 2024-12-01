@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback} from "@/components/ui/avatar"
 import { ArrowLeft, Share2, Search, Bot, Send } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
