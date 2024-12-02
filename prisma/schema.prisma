@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ProductCreation {
+  id                    String   @id @default(uuid())
+  emailUsuario          String
+  nomeProduto           String
+  infoProduto           String
+  beneficiosProduto     String
+  objecoesProduto       String
+  prosecontraProduto    String
+  motivosProduto        String
+  perdasProduto         String
+  modulosProduto        String
+  modulo1Produto        String
+  modulo2Produto        String
+  modulo3Produto        String
+  modulo4Produto        String
+  modulo5Produto        String
+  modulo6Produto        String
+  orderbumpProduto      String
+  headlineProduto       String
+  descricaoProduto      String
+  infoPersona           String
+  caracteristicasPersona String
+  nichos                String
+  nichoEscolhido        String
+  data                  DateTime @default(now())
+  link                  String?
+
+  @@map("product_creation")
+}
