@@ -19,7 +19,7 @@ export function UserCard() {
           <h2 className="text-lg font-medium mb-3">Olá, {userName}!</h2>
           <Button 
             variant="outline" 
-            className="w-[180px] h-[50px] bg-[#C4F400] border-[#88b337] text-[black] hover:bg-[#88b337] hover:text-white transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+            className="w-[180px] h-[50px] bg-[#C4F400] border-[#88b337] text-[black] hover:bg-[#88b337] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             onClick={() => setIsModalOpen(true)}
           >
             Ver Perfil
