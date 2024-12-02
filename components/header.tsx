@@ -12,7 +12,7 @@ export function Header() {
         className="h-8 w-auto"
       />
       <Button  
-        className="bg-black/95 w-[150px] h-[50px] border-[#74fc05] text-[#74fc05] hover:bg-[#B3DD01] hover:opacity-500 hover:text-white" 
+        className="bg-black/95 w-[150px] h-[50px] border-[#b6fc05] text-[#b6fc05] hover:bg-[#B3DD01] hover:opacity-500 hover:text-white" 
         variant="outline"
       >
         Sair
