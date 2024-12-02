@@ -190,16 +190,14 @@ const sections = [
 
 export default function Home() {
   return (
-    
     <div className="min-h-screen bg-black/95 text-white py-8">
       <div className="max-w-[1920px] mx-auto px-4">
-
         <div className="relative mb-8 pb-2">
-          <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8 ">
-            <div className="col-span-2 md:col-span-3 flex justify-left  border-0 ">
+          <div className="flex gap-6 mb-8">
+            <div className="flex-shrink-0">
               <UserCard />
             </div>
-            <div className="col-span-2 md:col-span-9 p-0 w-full">
+            <div className="flex-grow">
               <WelcomeBanner />
             </div>
           </div>
@@ -212,7 +210,6 @@ export default function Home() {
     </div>
   )
 }
-
 
 
 

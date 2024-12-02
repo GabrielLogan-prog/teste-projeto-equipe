@@ -16,22 +16,22 @@ export function CardSection({ title, cards }: CardSectionProps) {
   }
 
   return (
-    <div className="mb-8 bg-[#151E13] rounded-xl p-0">
-      <div className="bg-[#192C18] rounded-lg p-4 mb-4">
+    <div className="mb-6 bg-[#151E13] rounded-xl p-0">
+      <div className="bg-[#192C18] rounded-lg p-3 mb-2">
         <h2 className="text-2xl font-bold text-white">{title}</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-2 w-full">
         {cards.map((card) => (
           <div key={card.id} onClick={() => handleCardClick(card.id, card.title)}>
             <Card 
-              className="relative overflow-hidden border-[#b6fc05] border-2 rounded-2xl h-[180px] w-[300px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer"
+              className="relative overflow-hidden border-[#b6fc05] border-2 rounded-2xl h-[11.75rem] w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer"
             >
-              <CardContent className="p-0 flex flex-col items-center justify-between h-full">
+              <CardContent className="p-0 h-full w-full">
                 <Image    
                   src={card.imageUrl}
                   alt={card.title}
-                  width={200}
-                  height={180}
+                  width={268}
+                  height={135}
                   className="w-full h-full object-cover"
                 />
               </CardContent>
