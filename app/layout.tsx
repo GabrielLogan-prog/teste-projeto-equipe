@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-BR">
     
       <body className={inter.className}>  
-      <div className=" w-[100%] bg-black flex py-8 ">
+      <div className=" w-[100%] bg-black flex  ">
         <Header />
       </div>
         <div className="min-h-screen bg-black flex justify-center items-center">

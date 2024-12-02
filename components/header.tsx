@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
-    <header className="flex w-[100%] justify-between items-center mb-8 border-b-2 border-gray-700  pb-6 px-[15%] " >
+    <header className="flex w-[100%] justify-between items-center mb-0 border-b-2 border-gray-700  pb-2 pt-2 px-[15%] " >
       <Image 
         src="/assets/logo-genius.png" 
         alt="Logo" 
