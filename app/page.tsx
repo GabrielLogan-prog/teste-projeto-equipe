@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+//import { Header } from "@/components/header"
 import { UserCard } from "@/components/user-card"
 import { CardSection } from "@/components/card-section"
 import { WelcomeBanner } from "@/components/welcome-banner"
@@ -8,8 +8,8 @@ const sections = [
   {
     title: "Criação de Produto",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/assets/criadores/PRODUTOS.webp" },
-      { id: 2, title: "Card 2", imageUrl: "/assets/criadores/ORDER-BUMP.webp" },
+      { id: 1, title: "Criador de Produto", imageUrl: "/assets/criadores/PRODUTOS.webp" },
+      { id: 2, title: "Criador-de-Order-Bump", imageUrl: "/assets/criadores/ORDER-BUMP.webp" },
       { id: 3, title: "Card 3", imageUrl: "/assets/criadores/UPSELL.webp" },
       { id: 4, title: "Card 4", imageUrl: "/assets/criadores/DOWNSELL.webp" },
     ]
@@ -190,9 +190,10 @@ const sections = [
 
 export default function Home() {
   return (
+    
     <div className="min-h-screen bg-black/95 text-white py-8">
       <div className="max-w-[1920px] mx-auto px-4">
-        <Header />
+
         <div className="relative mb-8 pb-2">
           <div className="grid grid-cols-2 md:grid-cols-12 gap-6 mb-8 ">
             <div className="col-span-2 md:col-span-3 flex justify-left  border-0 ">
