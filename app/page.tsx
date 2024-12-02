@@ -191,7 +191,7 @@ const sections = [
 export default function Home() {
   return (
     
-    <div className="min-h-screen bg-black/95 text-white py-4">
+    <div className="min-h-screen bg-black/95 text-white py-8">
       <div className="max-w-[1920px] mx-auto px-4">
 
         <div className="relative mb-8 pb-2">
