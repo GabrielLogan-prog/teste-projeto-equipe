@@ -20,7 +20,7 @@ export function CardSection({ title, cards }: CardSectionProps) {
       <div className="bg-[#192C18] rounded-lg p-3 mb-2">
         <h2 className="text-2xl font-bold text-white">{title}</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-2 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4 w-full">
         {cards.map((card) => (
           <div key={card.id} onClick={() => handleCardClick(card.id, card.title)}>
             <Card 
