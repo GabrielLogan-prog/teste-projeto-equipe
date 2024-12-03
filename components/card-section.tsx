@@ -24,7 +24,7 @@ export function CardSection({ title, cards }: CardSectionProps) {
         {cards.map((card) => (
           <div key={card.id} onClick={() => handleCardClick(card.id, card.title)}>
             <Card 
-              className="relative overflow-hidden border-[#b6fc05] border-2 rounded-2xl h-[11.75rem] w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer"
+              className="relative overflow-hidden border-[#b6fc05] border-2 rounded-2xl h-[12.75rem] w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer"
             >
               <CardContent className="p-0 h-full w-full">
                 <Image    
