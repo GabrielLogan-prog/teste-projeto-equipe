@@ -13,32 +13,26 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model ProductCreation {
-  id                    String   @id @default(uuid())
-  emailUsuario          String
-  nomeProduto           String
-  infoProduto           String
-  beneficiosProduto     String
-  objecoesProduto       String
-  prosecontraProduto    String
-  motivosProduto        String
-  perdasProduto         String
-  modulosProduto        String
-  modulo1Produto        String
-  modulo2Produto        String
-  modulo3Produto        String
-  modulo4Produto        String
-  modulo5Produto        String
-  modulo6Produto        String
-  orderbumpProduto      String
-  headlineProduto       String
-  descricaoProduto      String
-  infoPersona           String
-  caracteristicasPersona String
-  nichos                String
-  nichoEscolhido        String
-  data                  DateTime @default(now())
-  link                  String?
+model Message {
+  id           String   @id @default(uuid())
+  sessionId    String   
+  threadId     String?
+  assistantId  String?
+  role         String
+  content      String   @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 
-  @@map("product_creation")
+  @@index([sessionId])
+  @@index([threadId])
+}
+
+model Thread {
+  id           String   @id
+  sessionId    String   @unique
+  assistantId  String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([sessionId])
 }
