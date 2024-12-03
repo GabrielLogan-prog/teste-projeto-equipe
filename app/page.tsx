@@ -8,8 +8,8 @@ const sections = [
   {
     title: "Criação de Produto",
     cards: [
-      { id: 1, title: "Criador de Produto", imageUrl: "/assets/criadores/PRODUTOS.webp" },
-      { id: 2, title: "Criador-de-Order-Bump", imageUrl: "/assets/criadores/ORDER-BUMP.webp" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/criadores/PRODUTOS.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/criadores/ORDER-BUMP.webp" },
       { id: 3, title: "Card 3", imageUrl: "/assets/criadores/UPSELL.webp" },
       { id: 4, title: "Card 4", imageUrl: "/assets/criadores/DOWNSELL.webp" },
     ]
@@ -50,15 +50,15 @@ const sections = [
   {
     title: "Gerador de Copy",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c5-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c5-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c5-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c5-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c5-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c5-6.png" },
-      { id: 7, title: "Card 4", imageUrl: "/img/c5-7.png" },
-      { id: 8, title: "Card 4", imageUrl: "/img/c5-8.png" },
-      { id: 9, title: "Card 4", imageUrl: "/img/c5-9.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/geradorcopy/aida.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/geradorcopy/beneficios.webp" },
+      { id: 3, title: "Card 3", imageUrl: "/assets/geradorcopy/analogias.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/geradorcopy/gatilhos-mentais.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/geradorcopy/motivos-para-comprar.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/geradorcopy/pas.webp" },
+      { id: 7, title: "Card 4", imageUrl: "/assets/geradorcopy/quebra-objecoes.webp" },
+      { id: 8, title: "Card 4", imageUrl: "/assets/geradorcopy/prova-social.webp" },
+      { id: 9, title: "Card 4", imageUrl: "/assets/geradorcopy/gerador-de-faq.webp" },
      
     ]
   },
