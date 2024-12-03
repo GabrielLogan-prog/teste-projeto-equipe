@@ -27,23 +27,23 @@ const sections = [
     title: "Criação de Estrategias",
     cards: [
       { id: 1, title: "Card 1", imageUrl: "/assets/estrategia/capturaLeads.webp" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c3-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c3-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c3-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c3-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c3-6.png" },
-      { id: 7, title: "Card 4", imageUrl: "/img/c3-7.png" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/estrategia/criacao-desafio.webp"},
+      { id: 3, title: "Card 3", imageUrl: "/assets/estrategia/escada-de-valor.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/estrategia/gancho-historia-oferta.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/estrategia/tripware.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/estrategia/webinario.webp" },
+      { id: 7, title: "Card 4", imageUrl: "/assets/estrategia/remarketing.webp" },
     ]
   },
   {
     title: "Ativos para Anuncios",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c4-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c4-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c4-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c4-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c4-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c4-6.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/ativosanuncio/copy-anuncio.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/ativosanuncio/criador-criativo.webp" },
+      { id: 3, title: "Card 3", imageUrl: "/assets/ativosanuncio/headlines.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/ativosanuncio/segmentacao-facebook.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/ativosanuncio/persona.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/ativosanuncio/persona-nicho.webp" },
     ]
   },
   
