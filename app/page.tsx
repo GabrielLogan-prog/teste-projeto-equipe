@@ -26,7 +26,7 @@ const sections = [
   {
     title: "Criação de Estrategias",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/assets/estrategia/captura-leads.webp" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/estrategia/capturaLeads.webp" },
       { id: 2, title: "Card 2", imageUrl: "/img/c3-2.png" },
       { id: 3, title: "Card 3", imageUrl: "/img/c3-3.png" },
       { id: 4, title: "Card 4", imageUrl: "/img/c3-4.png" },
