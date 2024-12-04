@@ -66,12 +66,12 @@ const sections = [
   {
     title: "Scripts Chat ECOM",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c6-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c6-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c6-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c6-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c6-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c6-6.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/script-chatecom/captura-sem-template.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/script-chatecom/conversao-sem-template.webp" },
+      { id: 3, title: "Card 3", imageUrl: "/assets/script-chatecom/captura-template-whatsapp.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/script-chatecom/conversao-templatewhats.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/script-chatecom/captura-templateInsta.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/script-chatecom/conversao-templateInsta.webp" },
       
     ]
   },
@@ -79,18 +79,18 @@ const sections = [
   {
     title: "Scripts Zap ECOM",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c7-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c7-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c7-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c7-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c7-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c7-6.png" },
-      { id: 7, title: "Card 4", imageUrl: "/img/c7-7.png" },
-      { id: 8, title: "Card 4", imageUrl: "/img/c7-8.png" },
-      { id: 9, title: "Card 4", imageUrl: "/img/c7-9.png" },
-      { id: 10, title: "Card 4", imageUrl: "/img/c7-10.png" },
-      { id: 11, title: "Card 4", imageUrl: "/img/c7-11.png" },
-      { id: 12, title: "Card 4", imageUrl: "/img/c7-12.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/script-zapecom/vendas-automatico.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/script-zapecom/envio-de-entregavel.webp" },
+      { id: 3, title: "Card 3", imageUrl: "/assets/script-zapecom/upsell.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/script-zapecom/downsell.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/script-zapecom/compra-aprovada.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/script-zapecom/rec-checkout-abandonado.webp" },
+      { id: 7, title: "Card 4", imageUrl: "/assets/script-zapecom/rec-pixgerado.webp" },
+      { id: 8, title: "Card 4", imageUrl: "/assets/script-zapecom/rec-boletogerado.webp" },
+      { id: 9, title: "Card 4", imageUrl: "/assets/script-zapecom/rec-pagamento-recusado.webp" },
+      { id: 10, title: "Card 4", imageUrl: "/assets/script-zapecom/rec-assinatura-cancelada.webp" },
+      { id: 11, title: "Card 4", imageUrl: "/assets/script-zapecom/recupera-reembolso.webp" },
+      { id: 12, title: "Card 4", imageUrl: "/assets/script-zapecom/remarketing.webp" },
     
     ]
   },
