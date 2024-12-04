@@ -98,15 +98,15 @@ const sections = [
   {
     title: "Geradores de Email",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c8-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c8-2.png" },
-      { id: 3, title: "Card 3", imageUrl: "/img/c8-3.png" },
-      { id: 4, title: "Card 4", imageUrl: "/img/c8-4.png" },
-      { id: 5, title: "Card 4", imageUrl: "/img/c8-5.png" },
-      { id: 6, title: "Card 4", imageUrl: "/img/c8-6.png" },
-      { id: 7, title: "Card 4", imageUrl: "/img/c8-7.png" },
-      { id: 8, title: "Card 4", imageUrl: "/img/c8-8.png" },
-      { id: 9, title: "Card 4", imageUrl: "/img/c8-9.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/gerador-email/gerador-de-newsletter.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/gerador-email/compra-aprovada.webp" },
+      { id: 3, title: "Card 3", imageUrl: "/assets/gerador-email/email-checkout-abandonado.webp" },
+      { id: 4, title: "Card 4", imageUrl: "/assets/gerador-email/email-pix-gerado.webp" },
+      { id: 5, title: "Card 4", imageUrl: "/assets/gerador-email/email-boleto-gerado.webp" },
+      { id: 6, title: "Card 4", imageUrl: "/assets/gerador-email/email-pagamento-recusado.webp" },
+      { id: 7, title: "Card 4", imageUrl: "/assets/gerador-email/email-assinatura-cancelada.webp" },
+      { id: 8, title: "Card 4", imageUrl: "/assets/gerador-email/email-reembolso.webp" },
+      { id: 9, title: "Card 4", imageUrl: "/assets/gerador-email/email-remarketing.webp" },
       
     
     ]
@@ -115,8 +115,8 @@ const sections = [
   {
     title: "Scripts VSL",
     cards: [
-      { id: 1, title: "Card 1", imageUrl: "/img/c9-1.png" },
-      { id: 2, title: "Card 2", imageUrl: "/img/c9-2.png" },
+      { id: 1, title: "Card 1", imageUrl: "/assets/scripts-vsl/vsl-jon-benson.webp" },
+      { id: 2, title: "Card 2", imageUrl: "/assets/scripts-vsl/vsl-para-upsell.webp" },
        
     ]
   },
